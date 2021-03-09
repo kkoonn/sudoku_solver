@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数独生成</title>
+</head>
+
+<body>
+  <p>数独を生成してね</p>
+  <p>左クリック：+1 右クリック：-1</p>
+  <p>「0」は空白として扱います</p>
+  <button id="init">初期化</button>
+  <div id="sudoku">
+  </div>
+  <button id="field-to-text">この数独についてテキストを生成</button>
+  <p id="sudoku-output-text"></p>
+  <button id="text-to-field">下記のテキストから数独を生成</button><br>
+  <input type="text" name="input-text" id="sudoku-input-text">
+  <script src="make_sudoku.js"></script>
+</body>
+
+</html>
